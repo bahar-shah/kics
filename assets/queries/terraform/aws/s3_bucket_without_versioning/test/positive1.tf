@@ -18,7 +18,7 @@ resource "aws_s3_bucket" "positive1" {
   tags = {
     Name        = "My bucket"
     Environment = "Dev"
-    Service     = "test"
+    Service     = "testing"
   }
 
   versioning {
